@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.con{
+    width: 80%;
+    user-select: none;
+}
+.logo{
+    background: linear-gradient(to right, red, yellow);
+     -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+.fstyle{
+    font-family: "Tilt Neon", sans-serif;
+    
+}
+.login{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    
+    /* padding: 5px; */
+
+}
+.login a{
+    text-decoration: none;
+    font-weight: 900;
+}
+.log{
+    color: black;
+    font-size: large;
+    /* border: 2px solid; */
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.sign{
+    color: rgb(249, 136, 154);
+    font-size: large;
+    /* border: 2px solid; */
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.log:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: rgb(249, 136, 154);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sign:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: rgb(249, 136, 154);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+}
+.head{
+    height: 92vh;
+    width: 100vw;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    
+}
+.head img{
+    height: 99%;
+    width: 90%;
+    user-select: none;
+    margin-left: 140px;
+ 
+
+}
+.pos{
+    position: absolute;
+}
+.para1{
+    margin: 100px 300px;
+    font-size: 3rem;
+    animation:trans 1s;
+}
+.para2{
+    margin: 150px 300px;
+    font-size: 5rem;
+    font-weight: 500;
+    animation:trans 1.3s;
+
+}
+.para3{
+    margin: 250px 300px;
+    font-size: 5rem;
+    font-weight: 500;
+    background: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation:trans 1.6s;
+}
+.para4{
+    margin-top: 360px;
+    margin-left: 310px;
+    font-size: 1rem;
+    animation:trans 1.9s;
+    
+}
+.nav-link{
+    font-size: large;
+}
+@keyframes trans{
+    from{
+        transform: translateX(-30px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
+nav{
+    animation:trans 1.5s;
+}
+img{
+    animation:trans 1s;
+}
+.btn{
+    background-color: rgb(53, 174, 226);
+    
+
+}
+.btn:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: rgb(249, 136, 154);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
